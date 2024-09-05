@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="img/logo3.png">
+    <title>Portfolio</title>
+</head>
+<body class="bg-white text-gray-700 dark:bg-gray-900 dark:text-gray-200 font-poppins">
+
+    <header class="w-full fixed top-0 left-0 bg-white dark:bg-gray-800 shadow-md z-50" id="header">
+        <nav class="max-w-screen-xl mx-auto flex items-center justify-between py-3 px-4">
+            <a href="#" class="text-3xl font-bold text-green-600 dark:text-green-400">Hjelbert</a>
+            <div class="hidden md:flex space-x-6" id="nav-menu">
+                <a href="#home" class="text-gray-700 dark:text-gray-200 hover:text-green-600 dark:hover:text-green-400">Home</a>
+                <a href="#about" class="text-gray-700 dark:text-gray-200 hover:text-green-600 dark:hover:text-green-400">About</a>
+                <a href="#projects" class="text-gray-700 dark:text-gray-200 hover:text-green-600 dark:hover:text-green-400">Projects</a>
+                <a href="#skills" class="text-gray-700 dark:text-gray-200 hover:text-green-600 dark:hover:text-green-400">Skills</a>
+                <a href="#contact" class="text-gray-700 dark:text-gray-200 hover:text-green-600 dark:hover:text-green-400">Contact</a>
+                <i class='bx bx-moon cursor-pointer' id="theme-button"></i>
+            </div>
+            <div class="md:hidden cursor-pointer" id="nav-toggle">
+                <i class='bx bx-menu text-2xl'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-1">
+
+        <section class="h-screen flex items-center justify-center bg-white custom-drop-shadow2" id="home">
+            <div>
+                <h2 class="text-2xl md:text-4xl font-medium text-gray-800 mb-5 looping-text">Hello,</h2>
+                <h1 class="text-6xl md:text-7xl font-bold font-serif text-green-600 mb-9 looping-text custom-drop-shadow2">I'm Jelbert Hibaya</h1>
+                <a href="https://www.facebook.com/jelbert.mantong" class="inline-block bg-green-600 text-white py-3 px-8 rounded-md transition duration-300 hover:bg-green-900 looping-text">Visit Me on Facebook</a>
+            </div>
+            <img src="img/ME.png" alt="Home Image" class="hidden md:block custom-drop-shadow" style="width: 42rem; margin-left: 2rem;">
+        </section>
+
+        <section class="py-16 bg-gray-50" id="about">
+            <div class="max-w-screen-lg mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                <div class="text-center md:text-left">
+                    <span class="text-green-600 text-xl font-medium">About Me</span>
+                    <h2 class="text-3xl font-semibold text-gray-800 mt-4 mb-6">Passionate Developer <br> Crafting Quality Solutions</h2>
+                    <p class="text-gray-700 mb-6">I specialize in developing user-friendly applications with a focus on quality and performance. Let's work together to bring your ideas to life.</p>
+                    <a href="#" class="inline-block bg-green-600 text-white py-3 px-8 rounded-md transition duration-300 hover:bg-green-700">View Portfolio</a>
+                </div>
+                <img src="img/1.jpg" alt="About Image" class="rounded-lg shadow-md">
+            </div>
+        </section>
+
+        <section class="py-16 bg-white" id="services">
+            <div class="max-w-screen-lg mx-auto px-6 text-center">
+                <span class="text-green-600 text-xl font-medium">What I Offer</span>
+                <h2 class="text-3xl font-semibold text-gray-800 mt-4 mb-8">My Professional Services</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Web Development</h3>
+                        <p class="text-gray-700">I provide high-quality web development services, creating responsive, user-friendly websites that meet your business needs.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Custom Solutions</h3>
+                        <p class="text-gray-700">I specialize in crafting custom software solutions tailored to your specific requirements, ensuring optimal performance and scalability.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Arduino Projects</h3>
+                        <p class="text-gray-700">I build interactive and automated systems using Arduino, perfect for hobbyists and professional applications alike.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">AutoCAD Design</h3>
+                        <p class="text-gray-700">I create detailed 2D and 3D models with AutoCAD, ideal for architectural and engineering projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-16 bg-gray-50" id="projects">
+            <div class="max-w-screen-lg mx-auto px-6 text-center">
+                <span class="text-green-600 text-xl font-medium">Portfolio</span>
+                <h2 class="text-3xl font-semibold text-gray-800 mt-4 mb-8">Highlighted Projects</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="relative bg-white p-6 rounded-lg shadow-xl">
+                        <img src="img/2.jpg" alt="Project 1" class="w-24 mx-auto mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Arduino</h3>
+                        <span class="block text-gray-500 mb-2">Remote Cart</span>
+                        <span class="block text-xl font-bold text-gray-800 mb-4">Arduino Module</span>
+                    </div>
+                    <div class="relative bg-white p-6 rounded-lg shadow-md">
+                        <img src="img/7.jpeg" alt="Project 2" class="w-24 mx-auto mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Photoshop</h3>
+                        <span class="block text-gray-500 mb-2">Blending Techniques</span>
+                        <span class="block text-xl font-bold text-gray-800 mb-4">Adobe Photoshop</span>
+                    </div>
+                    <div class="relative bg-white p-6 rounded-lg shadow-md">
+                        <img src="img/4.jpg" alt="Project 3" class="w-24 mx-auto mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Java</h3>
+                        <span class="block text-gray-500 mb-2">Employee Management System</span>
+                        <span class="block text-xl font-bold text-gray-800 mb-4">Java GUI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-16 bg-white" id="skills">
+            <div class="max-w-screen-lg mx-auto px-6 text-center">
+                <span class="text-green-600 text-xl font-medium">Skills</span>
+                <h2 class="text-3xl font-semibold text-gray-800 mt-4 mb-8">Technical Proficiencies</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="relative bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Web Development</h3>
+                        <p class="text-gray-700">HTML, CSS, JavaScript, React, Vue.js, Laravel</p>
+                    </div>
+                    <div class="relative bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Arduino</h3>
+                        <p class="text-gray-700">Microcontroller Programming, Sensor Integration, Automation</p>
+                    </div>
+                    <div class="relative bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Photoshop</h3>
+                        <p class="text-gray-700">Graphic Design, Photo Editing, UI/UX Design</p>
+                    </div>
+                    <div class="relative bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">AutoCAD</h3>
+                        <p class="text-gray-700">2D/3D Modeling, Drafting, Architectural Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-16 bg-gray-50" id="contact">
+            <div class="max-w-screen-lg mx-auto px-6 text-center">
+                <span class="text-green-600 text-xl font-medium">Let's talk</span>
+                <h2 class="text-3xl font-semibold text-gray-800 mt-4 mb-8">Contact</h2>
+                <p class="text-gray-700 mb-8">If you need a programmer, feel free to contact me. I'm available to assist you, and I'll respond quickly to your inquiries.</p>
+                <a href="#" class="inline-block bg-green-600 text-white py-3 px-8 rounded-md transition duration-300 hover:bg-green-700">Contact now</a>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="py-12 bg-gray-800 text-white">
+        <div class="max-w-screen-lg mx-auto grid md:grid-cols-4 gap-8 px-6">
+            <div class="text-center md:text-left">
+                <a href="#" class="text-xl font-semibold text-green-500">Jelbert Hibaya</a>
+                <p class="text-sm text-gray-400 mt-2">Developer</p>
+                <div class="flex justify-center md:justify-start space-x-4 mt-4">
+                    <a href="https://www.facebook.com/jelbert.mantong" class="text-xl"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="text-xl"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="text-xl"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="text-center md:text-left">
+                <h3 class="text-lg font-medium mb-4">My Services</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">Web Development</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Custom Solutions</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Consulting</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Project Planning</a></li>
+                </ul>
+            </div>
+
+            <div class="text-center md:text-left">
+                <h3 class="text-lg font-medium mb-4">Information</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">Events</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <div class="text-center md:text-left">
+                <h3 class="text-lg font-medium mb-4">Address</h3>
+                <ul class="space-y-2">
+                    <li class="text-gray-400 hover:text-white">San Isidro</li>
+                    <li class="text-gray-400 hover:text-white">Bohol</li>
+                    <li class="text-gray-400 hover:text-white">09092217080</li>
+                    <li class="text-gray-400 hover:text-white">hjelbert37@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center text-gray-500 mt-8">&copy; 2024 JELBSHcode.</p>
+    </footer>
+
+    <style>
+
+        .custom-drop-shadow {
+            filter: drop-shadow(0px 0px 12px rgb(1, 104, 3));
+        }
+        .custom-drop-shadow2 {
+            filter: drop-shadow(0px 0px 12px rgba(200, 148, 6, 0.316));
+        }
+
+        .looping-text {
+            opacity: 0;
+            animation: reveal-loop 5s ease-in-out infinite;
+        }
+
+        @keyframes reveal-loop {
+            0%, 100% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .looping-text:nth-child(1) {
+            animation-delay: 1s;
+        }
+
+        .looping-text:nth-child(2) {
+            animation-delay: 2s;
+        }
+    </style>
+    
+</body>
+</html>
